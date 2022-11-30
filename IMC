@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPdQWdPEj48ubK7bf9129f9",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AxelSantamaria/programacionWeb/blob/main/IMC\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 8,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cgGMuB1MuMQO",
+        "outputId": "59971bff-003e-465e-e907-dff85fe1848a"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "25.25951557093426\n"
+          ]
+        }
+      ],
+      "source": [
+        "#@title Cálculo del IMC { run: \"auto\" }\n",
+        "estatura = 1.70 #@param {type:\"number\"}\n",
+        "peso = 73 #@param {type:\"number\"}\n",
+        "imc = peso/estatura**2\n",
+        "print(imc)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Calular IMC"
+      ],
+      "metadata": {
+        "id": "o3OAzMduuor_"
+      }
+    }
+  ]
+}
